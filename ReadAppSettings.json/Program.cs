@@ -21,6 +21,8 @@ namespace ReadAppSettings.json
 
             Console.WriteLine(Configuration.GetConnectionString("DataConnection"));
 
+            Console.WriteLine(Configuration.GetValue<string>("DbConnectionConfig:ServerName"));
+            
             Console.ReadLine();
         }
 
