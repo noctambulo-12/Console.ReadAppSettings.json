@@ -6,12 +6,11 @@ La plantilla de aplicación de consola .NET Core nos permite probar ideas rápid
 **Este es un PoC de aplicación de consola C# .NET Core que leerá los valores de un archivo appsettings.json además usando inyección de dependencias (dependency injection) accederemos al objeto IConfigurationRoot**
 
 Los paquetes NuGet que hemos usado son:</p>
-<code>
-    Install-Package Microsoft.Extensions.Configuration</br>
-    Install-Package Microsoft.Extensions.Configuration.Binder</br>
-    Install-Package Microsoft.Extensions.Configuration.Json</br>
-    Install-Package Microsoft.Extensions.DependencyInjection
-</code>
+- `Install-Package Microsoft.Extensions.Configuration`
+- `Install-Package Microsoft.Extensions.Configuration.Binder`
+- `Install-Package Microsoft.Extensions.Configuration.Json`
+- `Install-Package Microsoft.Extensions.DependencyInjection`
+
 </p>
 </p>
 
