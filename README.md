@@ -1,6 +1,6 @@
 # Console.ReadAppSettings.json
 
-La plantilla de aplicación de consola .NET Core nos permite probar ideas rápidamente (PoC) y entorno de producción ejecutar tarea definida de manera intermitente (a petición).
+La plantilla de aplicación de consola .NET Core nos permite probar ideas rápidamente (PoC) y en entorno de producción ejecutar tarea definida de manera intermitente (a petición).
 </br>Porque es una plantilla ligera NO tiene algunas funcionalidades incorporada por defecto como configuración e inyección de dependencia.</p>
 
 **Este es un PoC de aplicación de consola C# .NET Core que leerá los valores de un archivo appsettings.json además usando inyección de dependencias (dependency injection) accederemos al objeto IConfigurationRoot**
